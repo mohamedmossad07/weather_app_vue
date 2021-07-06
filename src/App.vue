@@ -48,7 +48,7 @@ export default {
       baseUrl: env.baseUrl,
       weather: {},
       loading: true,
-    };
+     };
   },
   methods: {
     async fetchWeatherOnMount() {
@@ -92,7 +92,7 @@ export default {
     async fetchDataOnEnter(e) {
       //  on user click on enter key
       if (e.key == "Enter") {
-        this.fetchDataOnEnter(e);
+        this.fetchData(e);
       }
     },
     async fetchData() {
