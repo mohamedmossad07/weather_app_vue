@@ -1,4 +1,4 @@
-# This is a VERY simple react app
+# This is a VERY simple vue app
 
 # you can run this app just do :
 ### npm install&&npm start
